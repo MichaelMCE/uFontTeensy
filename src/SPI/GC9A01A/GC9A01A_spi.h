@@ -206,7 +206,7 @@ public:
   void fillScreen (uint16_t color);
   
   void setBacklight (const uint8_t value);
-  void pushPixels16bit (uint16_t *pcolors, uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2);
+  void pushPixels16bit (const uint16_t *pcolors, uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2);
   
   
   

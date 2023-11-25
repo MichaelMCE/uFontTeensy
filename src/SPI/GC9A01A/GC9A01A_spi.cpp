@@ -936,7 +936,7 @@ void GC9A01A_SPI::writeRect (int16_t x, int16_t y, int16_t w, int16_t h, const u
   endSPITransaction();
 }
 
-void GC9A01A_SPI::pushPixels16bit (uint16_t *pcolors, uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2)
+void GC9A01A_SPI::pushPixels16bit (const uint16_t *pcolors, uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2)
 {
   const int w = (x2 - x1) + 1;
   const int h = (y2 - y1) + 1;
